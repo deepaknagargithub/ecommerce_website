@@ -1,0 +1,108 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.heading {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.heading1 {
+  color: #3297f0;
+}
+
+.heading4 {
+  font-size: 2rem;
+}
+.link {
+  text-decoration: none;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  height: 20vh;
+  width: 80vw;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 2px;
+  display: flex;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.title {
+  margin-left: 10px;
+}
+.desc {
+  margin-left: 10px;
+}
+
+.icons {
+  display: flex;
+  position: relative;
+  top: 150px;
+  cursor: pointer;
+}
+
+.addformdata {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}
+
+.addformdata div {
+  font-size: 2rem;
+  margin: 10px;
+}
+.addformdata input {
+  font-size: 2rem;
+  margin: 10px;
+}
+.addformdata button {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editform {
+  height: 200px;
+  width: 800px;
+}
+
+.filter {
+  height: 30px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 70%;
+  padding-top: 10px;
+}
+.filter select {
+  font-size: 1rem;
+}
